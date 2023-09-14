@@ -48,7 +48,7 @@ export default function Footer() {
       <small>
         <i>©2023 Trae Zeeofor </i>
         <a
-          href="https://github.com/traez/movie-discovery-web-app"
+          href="https://github.com/traez/movie-discovery-webapp"
           target="_blank"
           className=""
         >
