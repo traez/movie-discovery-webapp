@@ -86,9 +86,9 @@ Create a movie discovery web application that allows users to search for movies,
 
 ### What I learned
 
-- Learned how to parse API-keys as Environment-Variables to better handle sensitive information. 
+- Learned how to parse API-keys as Environment-Variables (both in Next.js and vercel) to better handle sensitive information. 
 - Understood how Query Params are parsed (code syntax convention) when fetching APIs.
-- Search functionality implemented, favourite functionality ignored. As later allowed in instructions.
+- Note that, Search functionality were implemented, while favourite functionality was ignored. As later allowed in instructions.
 
 ### Continued development
 

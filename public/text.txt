@@ -1,3 +1,12 @@
-Next.js API-keys Environment-Variables issue resolved.
-All i did was review code with a clear head, by 3am after getting some deserved rest from the previous day's 12-hour code binge.
-In programming We rise by lifting self; through an overcoming obstacles series.
+Apologies Boss, I edited my submission to my stage 2 movie discovery web application project.
+
+previously:
+Hosted link: https://movie-discovery-web-app-traez.vercel.app/
+The GitHub URL: https://github.com/traez/movie-discovery-web-app
+
+Now:
+Hosted link: https://movie-discovery-webapp-traez.vercel.app/
+The GitHub URL: https://github.com/traez/movie-discovery-webapp
+
+Only change is "web-app" changed to "webapp" 
+Hope no issues please as grading is supposedly yet to start?
