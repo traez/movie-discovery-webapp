@@ -9,7 +9,7 @@ import { StateContext } from "../../StateProvider";
 
 export default function MovieId({ params }) {
   const itemId = parseInt(params.id);
-  const apiKey2 = process.env.NEXT_PUBLIC_API_KEY;
+  //const apiKey2 = process.env.NEXT_PUBLIC_API_KEY;
   const {
     isLoading,
     setIsLoading,
@@ -23,7 +23,7 @@ export default function MovieId({ params }) {
     async function fetchDetailsData() {
       try {
         const response = await fetch(
-          `https://api.themoviedb.org/3/movie/${itemId}?api_key=${apiKey2}`
+          `https://api.themoviedb.org/3/movie/${itemId}?api_key=${process.env.NEXT_PUBLIC_API_KEY}`
         );
         const data = await response.json();
         setDetailsData(data);

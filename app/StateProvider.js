@@ -15,7 +15,7 @@ export default function StateProvider({ children }) {
   const [error, setError] = useState(null);
   const [detailsData, setDetailsData] = useState([]);
   const [searchTerm, setSearchTerm] = useState("");
-  const apiKey2 = process.env.NEXT_PUBLIC_API_KEY;
+  //const apiKey2 = process.env.NEXT_PUBLIC_API_KEY;
 
   function toggleDisplay(parameter) {
     setComponentDisplay(parameter);
@@ -32,7 +32,7 @@ export default function StateProvider({ children }) {
     try {
       const searchTerm = event.target.value;
       const response = await fetch(
-        `https://api.themoviedb.org/3/search/movie?api_key=${apiKey2}&language=en-US&page=1&include_adult=false&query=${searchTerm}`
+        `https://api.themoviedb.org/3/search/movie?api_key=${process.env.NEXT_PUBLIC_API_KEY}&language=en-US&page=1&include_adult=false&query=${searchTerm}`
       );
 
       if (!response.ok) {

@@ -10,7 +10,7 @@ import { StateContext } from "../StateProvider";
 
 export default function HomeCom() {
   const router = useRouter();
-  const apiKey2 = process.env.NEXT_PUBLIC_API_KEY;
+  //const apiKey2 = process.env.NEXT_PUBLIC_API_KEY;
   const {
     movieData,
     setMovieData,
@@ -25,7 +25,7 @@ export default function HomeCom() {
     async function fetchMoviesData() {
       try {
         const response = await fetch(
-          `https://api.themoviedb.org/3/movie/top_rated?api_key=${apiKey2}`
+          `https://api.themoviedb.org/3/movie/top_rated?api_key=${process.env.NEXT_PUBLIC_API_KEY}`
         );
         const data = await response.json();
         setMovieData(data);
