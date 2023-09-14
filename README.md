@@ -68,8 +68,8 @@ Create a movie discovery web application that allows users to search for movies,
 
 ### Links
 
-- Solution URL: [https://github.com/traez/movie-discovery-web-app](https://github.com/traez/movie-discovery-web-app)
-- Live Site URL: [https://movie-discovery-web-app-traez.vercel.app](https://movie-discovery-web-app-traez.vercel.app)
+- Solution URL: [https://github.com/traez/movie-discovery-webapp](https://github.com/traez/movie-discovery-webapp)
+- Live Site URL: [https://movie-discovery-webapp-traez.vercel.app](https://movie-discovery-webapp-traez.vercel.app)
 
 ## My process
 
