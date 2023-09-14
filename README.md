@@ -64,7 +64,7 @@ Create a movie discovery web application that allows users to search for movies,
 
 ### Screenshot
 
-![](/images/screenshot-desktop.png)
+![](/public/images/screenshot-desktop.png)
 
 ### Links
 
