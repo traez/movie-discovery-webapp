@@ -15,7 +15,7 @@ export default function StateProvider({ children }) {
   const [error, setError] = useState(null);
   const [detailsData, setDetailsData] = useState([]);
   const [searchTerm, setSearchTerm] = useState("");
-  const apiKey2 = process.env.API_KEY;
+  const apiKey2 = process.env.NEXT_PUBLIC_API_KEY;
 
   function toggleDisplay(parameter) {
     setComponentDisplay(parameter);

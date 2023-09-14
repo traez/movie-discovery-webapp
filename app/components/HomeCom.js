@@ -10,7 +10,7 @@ import { StateContext } from "../StateProvider";
 
 export default function HomeCom() {
   const router = useRouter();
-  const apiKey2 = process.env.API_KEY;
+  const apiKey2 = process.env.NEXT_PUBLIC_API_KEY;
   const {
     movieData,
     setMovieData,
