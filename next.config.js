@@ -1,4 +1,11 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+const nextConfig = {};
 
-module.exports = nextConfig
+module.exports = {
+  images: {
+    domains: ["image.tmdb.org"],
+  },
+  env: {
+    API_KEY: process.env.API_KEY,
+  },
+};

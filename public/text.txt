@@ -1,0 +1,3 @@
+Next.js API-keys Environment-Variables issue resolved.
+All i did was review code with a clear head, by 3am after getting some deserved rest from the previous day's 12-hour code binge.
+In programming We rise by lifting self; through an overcoming obstacles series.

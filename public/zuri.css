@@ -137,10 +137,6 @@ menu {
   align-items: center;
   padding: 0.3rem;
 }
-.sec-chf-art:hover{
-  cursor: pointer;
-  box-shadow: 0 0 3px 3px hsl(0, 0%, 68%);
-}
 .sec-cdet-art {
   width: 24rem;
   height: 32rem;
@@ -182,7 +178,7 @@ menu {
   font-size: 0.8rem;
 }
 .sec-cdet-movie-title {
-  font-size: 1rem;
+  font-size: 1.6rem;
 }
 .sec-chf-movtitprop {
   color: #0037a5;
@@ -200,7 +196,7 @@ menu {
   font-size: 0.8rem;
 }
 .sec-cdet-movreldat {
-  font-size: 1rem;
+  font-size: 1.6rem;
 }
 .sec-chf-movrelprop {
   color: #4b4a4a;
@@ -212,24 +208,6 @@ menu {
   color: #2a795b;
 }
 .sec-cdet-movrelval {
-  color: #2a795b;
-}
-.sec-cdet-movruntime{
-  font-size: 1rem;
-}
-.sec-cdet-movrunprop{
-  color: #0037a5;
-}
-.sec-cdet-movrunval{
-  color: #8312a5;
-}
-.sec-cdet-movover{
-  font-size: 1rem;
-}
-.sec-cdet-movoverprop{
-  color: #4b4a4a;
-}
-.sec-cdet-movoverval{
   color: #2a795b;
 }
 /* Footer ************************/
